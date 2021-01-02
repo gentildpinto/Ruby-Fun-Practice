@@ -26,4 +26,10 @@ RSpec.describe "Functions" do
             expect(functions.mulb(3, 4)).to eq(12)
         end
     end
+
+    describe "minb(a, b)" do
+       it "takes two numbers and returns the smaller one" do
+           expect(functions.minb(3, 4)).to eq(3)
+       end 
+    end
 end

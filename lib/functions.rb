@@ -18,4 +18,9 @@ module Functions
     def self.mulb(a, b)
         return a * b
     end
+
+    # this function takes two numbers and returns the smaller one
+    def self.minb(a, b)
+        return a < b ? a : b
+    end
 end

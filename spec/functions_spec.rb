@@ -1,6 +1,6 @@
-require File.dirname(__FILE__) + '/../lib/solutions.rb'
+require File.dirname(__FILE__) + '/../lib/functions.rb'
 
-RSpec.describe "Solutions" do
+RSpec.describe "Functions" do
     let(:solution) { Functions }
 
     describe "identity()" do

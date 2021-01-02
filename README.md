@@ -29,11 +29,15 @@ This repository contains an adaptation in ruby of [JS_Fun_Practice](https://gith
             their sum
         </p>
     </dd>
-<dt><a href="#subb">subb(a, b)</a> ⇒ <code>number</code></dt>
-<dd><p>Write a binary function <code>subb</code>
-that takes two numbers and returns
-their difference</p>
-</dd>
+    <dt>
+        <strike><a href="#subb">subb(a, b)</a> ⇒ <code>number</code></strike>
+    </dt>
+    <dd>
+        <p>Write a binary function <code>subb</code>
+            that takes two numbers and returns
+            their difference
+        </p>
+    </dd>
 <dt><a href="#mulb">mulb(a, b)</a> ⇒ <code>number</code></dt>
 <dd><p>Write a binary function <code>mulb</code>
 that takes two numbers and returns
@@ -545,8 +549,8 @@ their difference
 
 **Example**
 
-```js
-subb(3, 4) // 3 - 4 = -1
+```rb
+subb(3, 4) # 3 - 4 = -1
 ```
 
 <a name="mulb"></a>

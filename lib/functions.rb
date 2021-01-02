@@ -3,4 +3,9 @@ module Functions
     def self.identity(argument)
         return argument
     end
+
+    # this function takes two numbers and returns their sum
+    def self.addb(a, b)
+        return a + b
+    end
 end

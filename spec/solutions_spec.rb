@@ -1,7 +1,7 @@
 require File.dirname(__FILE__) + '/../lib/solutions.rb'
 
 RSpec.describe "Solutions" do
-    let(:solution) { Solutions }
+    let(:solution) { Functions }
 
     describe "identity()" do
         it "takes an argument and returns that argument" do

@@ -47,11 +47,15 @@ This repository contains an adaptation in ruby of [JS_Fun_Practice](https://gith
             their product
         </p>
     </dd>
-<dt><a href="#minb">minb(a, b)</a> ⇒ <code>number</code></dt>
-<dd><p>Write a binary function <code>minb</code>
-that takes two numbers and returns
-the smaller one</p>
-</dd>
+    <dt>
+        <strike><a href="#minb">minb(a, b)</a> ⇒ <code>number</code></strike>
+    </dt>
+    <dd>
+        <p>Write a binary function <code>minb</code>
+            that takes two numbers and returns
+            the smaller one
+        </p>
+    </dd>
 <dt><a href="#maxb">maxb(a, b)</a> ⇒ <code>number</code></dt>
 <dd><p>Write a binary function <code>maxb</code>
 that takes two numbers and returns
@@ -591,8 +595,8 @@ the smaller one
 
 **Example**
 
-```js
-minb(3, 4) // 3
+```rb
+minb(3, 4) # 3
 ```
 
 <a name="maxb"></a>

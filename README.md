@@ -38,11 +38,15 @@ This repository contains an adaptation in ruby of [JS_Fun_Practice](https://gith
             their difference
         </p>
     </dd>
-<dt><a href="#mulb">mulb(a, b)</a> ⇒ <code>number</code></dt>
-<dd><p>Write a binary function <code>mulb</code>
-that takes two numbers and returns
-their product</p>
-</dd>
+    <dt>
+        <strike><a href="#mulb">mulb(a, b)</a> ⇒ <code>number</code></strike>
+    </dt>
+    <dd>
+        <p>Write a binary function <code>mulb</code>
+            that takes two numbers and returns
+            their product
+        </p>
+    </dd>
 <dt><a href="#minb">minb(a, b)</a> ⇒ <code>number</code></dt>
 <dd><p>Write a binary function <code>minb</code>
 that takes two numbers and returns
@@ -568,8 +572,8 @@ their product
 
 **Example**
 
-```js
-mulb(3, 4) // 3 * 4 = 12
+```rb
+mulb(3, 4) # 3 * 4 = 12
 ```
 
 <a name="minb"></a>

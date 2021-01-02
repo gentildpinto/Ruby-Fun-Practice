@@ -12,7 +12,7 @@ This repository contains an adaptation in ruby of [JS_Fun_Practice](https://gith
 
 <dl>
     <dt>
-        <a href="#identity">identity(x)</a> ⇒ <code>any</code>
+        <strike><a href="#identity">identity(x)</a> ⇒ <code>any</code></strike>
     </dt>
     <dd>
         <p>Write a function <code>identity</code> that
@@ -497,14 +497,14 @@ Write a function `identity` that
 takes an argument and returns
 that argument
 
-| Param | Type             |
-| ----- | ---------------- |
-| x     | <code>any</code> |
+| Param        | Type             |
+| ------------ | ---------------- |
+| argument     | <code>any</code> |
 
 **Example**
 
-```js
-identity(3) // 3
+```rb
+identity(3) # 3
 ```
 
 <a name="addb"></a>

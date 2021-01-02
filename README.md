@@ -56,11 +56,15 @@ This repository contains an adaptation in ruby of [JS_Fun_Practice](https://gith
             the smaller one
         </p>
     </dd>
-<dt><a href="#maxb">maxb(a, b)</a> ⇒ <code>number</code></dt>
-<dd><p>Write a binary function <code>maxb</code>
-that takes two numbers and returns
-the larger one</p>
-</dd>
+    <dt>
+        <strike><a href="#maxb">maxb(a, b)</a> ⇒ <code>number</code></strike>
+    </dt>
+    <dd>
+        <p>Write a binary function <code>maxb</code>
+            that takes two numbers and returns
+            the larger one
+        </p>
+    </dd>
 <dt><a href="#add">add(...nums)</a> ⇒ <code>number</code></dt>
 <dd><p>Write a function <code>add</code> that
 is generalized for any
@@ -614,8 +618,8 @@ the larger one
 
 **Example**
 
-```js
-maxb(3, 4) // 4
+```rb
+maxb(3, 4) # 4
 ```
 
 <a name="add"></a>

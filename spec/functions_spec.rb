@@ -14,4 +14,10 @@ RSpec.describe "Functions" do
             expect(functions.addb(3, 4)).to eq(7)
         end
     end
+
+    describe "subb(a, b)" do
+        it "takes two numbers and returns their difference" do
+            expect(functions.subb(3, 4)).to eq(-1)
+        end        
+    end
 end

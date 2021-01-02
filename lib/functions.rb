@@ -13,4 +13,9 @@ module Functions
     def self.subb(a, b)
         return a - b
     end
+
+    # this function takes two numbers and returns their product
+    def self.mulb(a, b)
+        return a * b
+    end
 end

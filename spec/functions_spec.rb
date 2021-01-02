@@ -20,4 +20,10 @@ RSpec.describe "Functions" do
             expect(functions.subb(3, 4)).to eq(-1)
         end        
     end
+
+    describe "mulb(a, b)" do
+        it "takes two numbers and returns their product" do
+            expect(functions.mulb(3, 4)).to eq(12)
+        end
+    end
 end

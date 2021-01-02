@@ -20,11 +20,15 @@ This repository contains an adaptation in ruby of [JS_Fun_Practice](https://gith
             that argument
         </p>
     </dd>
-<dt><a href="#addb">addb(a, b)</a> ⇒ <code>number</code></dt>
-<dd><p>Write a binary function <code>addb</code>
-that takes two numbers and returns
-their sum</p>
-</dd>
+    <dt>
+        <strike><a href="#addb">addb(a, b)</a> ⇒ <code>number</code></strike>
+    </dt>
+    <dd>
+        <p>Write a binary function <code>addb</code>
+            that takes two numbers and returns
+            their sum
+        </p>
+    </dd>
 <dt><a href="#subb">subb(a, b)</a> ⇒ <code>number</code></dt>
 <dd><p>Write a binary function <code>subb</code>
 that takes two numbers and returns
@@ -522,8 +526,8 @@ their sum
 
 **Example**
 
-```js
-addb(3, 4) // 3 + 4 = 7
+```rb
+addb(3, 4) # 3 + 4 = 7
 ```
 
 <a name="subb"></a>

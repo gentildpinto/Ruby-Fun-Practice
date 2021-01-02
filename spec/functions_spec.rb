@@ -32,4 +32,10 @@ RSpec.describe "Functions" do
            expect(functions.minb(3, 4)).to eq(3)
        end 
     end
+
+    describe "maxb(a, b)" do
+        it "takes two numbers and returns the larger one" do
+            expect(functions.maxb(3, 4)).to eq(4)
+        end
+    end
 end

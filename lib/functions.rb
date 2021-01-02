@@ -23,4 +23,9 @@ module Functions
     def self.minb(a, b)
         return a < b ? a : b
     end
+
+    # this function takes two numbers and returns the larger one
+    def self.maxb(a, b)
+        return a > b ? a : b
+    end
 end

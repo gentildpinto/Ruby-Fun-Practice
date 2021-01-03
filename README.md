@@ -101,11 +101,15 @@ This repository contains an adaptation in ruby of [JS_Fun_Practice](https://gith
             amount of arguments
         </p>
     </dd>
-<dt><a href="#max">max(...nums)</a> ⇒ <code>number</code></dt>
-<dd><p>Write a function <code>max</code> that
-is generalized for any
-amount of arguments</p>
-</dd>
+    <dt>
+        <strike><a href="#max">max(*nums)</a> ⇒ <code>number</code></strike>
+    </dt>
+    <dd>
+        <p>Write a function <code>max</code> that
+            is generalized for any
+            amount of arguments
+        </p>
+    </dd>
 <dt><a href="#addRecurse">addRecurse(...nums)</a> ⇒ <code>number</code></dt>
 <dd><p>Write a function <code>addRecurse</code> that
 is the generalized <code>add</code> function
@@ -720,12 +724,12 @@ amount of arguments
 
 | Param   | Type                |
 | ------- | ------------------- |
-| ...nums | <code>number</code> |
+| *nums   | <code>number</code> |
 
 **Example**
 
-```js
-max(1, 2, 4) // 4
+```rb
+max(1, 2, 4) # 4
 ```
 
 <a name="addRecurse"></a>

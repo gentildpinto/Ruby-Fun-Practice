@@ -40,4 +40,10 @@ module Functions
         diff = nums.reduce(&:-)
         return diff
     end
+
+    # this function is generalized for any amount of arguments
+    def self.mul(*nums)
+        product = nums.reduce(&:*)
+        return product
+    end
 end

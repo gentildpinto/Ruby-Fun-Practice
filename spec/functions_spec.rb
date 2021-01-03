@@ -50,4 +50,10 @@ RSpec.describe "Functions" do
             expect(functions.sub(1, 2, 4)).to eq(-5)
         end
     end
+
+    describe "mul(*nums)" do
+        it "is generalized for any amount of arguments" do
+            expect(functions.mul(1, 2, 4)).to eq(8)
+        end
+    end
 end

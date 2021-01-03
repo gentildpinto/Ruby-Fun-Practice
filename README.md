@@ -65,11 +65,15 @@ This repository contains an adaptation in ruby of [JS_Fun_Practice](https://gith
             the larger one
         </p>
     </dd>
-<dt><a href="#add">add(...nums)</a> ⇒ <code>number</code></dt>
-<dd><p>Write a function <code>add</code> that
-is generalized for any
-amount of arguments</p>
-</dd>
+    <dt>
+        <strike><a href="#add">add(*nums)</a> ⇒ <code>number</code></strike>
+    </dt>
+    <dd>
+        <p>Write a function <code>add</code> that
+            is generalized for any
+            amount of arguments
+        </p>
+    </dd>
 <dt><a href="#sub">sub(...nums)</a> ⇒ <code>number</code></dt>
 <dd><p>Write a function <code>sub</code> that
 is generalized for any
@@ -624,7 +628,7 @@ maxb(3, 4) # 4
 
 <a name="add"></a>
 
-## add(...nums) ⇒ <code>number</code>
+## add(*nums) ⇒ <code>number</code>
 
 Write a function `add` that
 is generalized for any
@@ -632,12 +636,12 @@ amount of arguments
 
 | Param   | Type                |
 | ------- | ------------------- |
-| ...nums | <code>number</code> |
+| *nums | <code>number</code> |
 
 **Example**
 
-```js
-add(1, 2, 4) // 1 + 2 + 4 = 7
+```rb
+add(1, 2, 4) # 1 + 2 + 4 = 7
 ```
 
 <a name="sub"></a>

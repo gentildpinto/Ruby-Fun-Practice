@@ -34,4 +34,10 @@ module Functions
         sum = nums.reduce(&:+)
         return sum
     end
+
+    # this function is generalized for any amount of arguments
+    def self.sub(*nums)
+        diff = nums.reduce(&:-)
+        return diff
+    end
 end

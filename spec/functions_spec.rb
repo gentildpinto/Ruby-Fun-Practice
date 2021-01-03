@@ -44,4 +44,10 @@ RSpec.describe "Functions" do
             expect(functions.add(1, 2, 4)).to eq(7)
         end
     end
+
+    describe "sub(*nums)" do
+        it "is generalized for any amount of arguments" do
+            expect(functions.sub(1, 2, 4)).to eq(-5)
+        end
+    end
 end

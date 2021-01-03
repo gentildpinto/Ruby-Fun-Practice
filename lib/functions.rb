@@ -46,4 +46,13 @@ module Functions
         product = nums.reduce(&:*)
         return product
     end
+
+    # this function is generalized for any amount of arguments
+    def self.min(*nums)
+        min ||= nums[0]
+        nums.each do |value|
+            min = value if value < min
+        end
+        return min
+    end
 end

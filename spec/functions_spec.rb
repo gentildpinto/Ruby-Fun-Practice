@@ -56,4 +56,10 @@ RSpec.describe "Functions" do
             expect(functions.mul(1, 2, 4)).to eq(8)
         end
     end
+
+    describe "min(*nums)" do
+        it "is generalized for any amount of arguments" do
+            expect(functions.min(1, 2, 4)).to eq(1)
+        end
+    end
 end

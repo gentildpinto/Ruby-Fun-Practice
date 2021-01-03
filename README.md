@@ -92,11 +92,15 @@ This repository contains an adaptation in ruby of [JS_Fun_Practice](https://gith
             amount of arguments
         </p>
     </dd>
-<dt><a href="#min">min(...nums)</a> ⇒ <code>number</code></dt>
-<dd><p>Write a function <code>min</code> that
-is generalized for any
-amount of arguments</p>
-</dd>
+    <dt>
+        <strike><a href="#min">min(*nums)</a> ⇒ <code>number</code></strike>
+    </dt>
+    <dd>
+        <p>Write a function <code>min</code> that
+            is generalized for any
+            amount of arguments
+        </p>
+    </dd>
 <dt><a href="#max">max(...nums)</a> ⇒ <code>number</code></dt>
 <dd><p>Write a function <code>max</code> that
 is generalized for any
@@ -698,12 +702,12 @@ amount of arguments
 
 | Param   | Type                |
 | ------- | ------------------- |
-| ...nums | <code>number</code> |
+| *nums   | <code>number</code> |
 
 **Example**
 
-```js
-min(1, 2, 4) // 1
+```rb
+min(1, 2, 4) # 1
 ```
 
 <a name="max"></a>

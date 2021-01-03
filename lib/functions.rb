@@ -28,4 +28,10 @@ module Functions
     def self.maxb(a, b)
         return a > b ? a : b
     end
+
+    # this function is generalized for any amount of arguments
+    def self.add(*nums)
+        sum = nums.reduce(&:+)
+        return sum
+    end
 end

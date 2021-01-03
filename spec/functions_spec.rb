@@ -38,4 +38,10 @@ RSpec.describe "Functions" do
             expect(functions.maxb(3, 4)).to eq(4)
         end
     end
+
+    describe "add(*nums)" do
+        it "is generalized for any amount of arguments" do
+            expect(functions.add(1, 2, 4)).to eq(7)
+        end
+    end
 end

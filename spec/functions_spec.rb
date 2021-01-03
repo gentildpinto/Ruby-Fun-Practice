@@ -62,4 +62,10 @@ RSpec.describe "Functions" do
             expect(functions.min(1, 2, 4)).to eq(1)
         end
     end
+
+    describe "max(*nums)" do
+        it "is generalized for any amount of arguments" do
+            expect(functions.max(1, 2, 4)).to eq(4)
+        end
+    end
 end

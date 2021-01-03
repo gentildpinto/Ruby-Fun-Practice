@@ -55,4 +55,13 @@ module Functions
         end
         return min
     end
+
+    # this function is generalized for any amount of arguments
+    def self.max(*nums)
+        max ||= nums[0]
+        nums.each do |value|
+            max = value if value > max
+        end
+        return max
+    end
 end

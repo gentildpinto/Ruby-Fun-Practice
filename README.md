@@ -83,11 +83,15 @@ This repository contains an adaptation in ruby of [JS_Fun_Practice](https://gith
             amount of arguments
         </p>
     </dd>
-<dt><a href="#mul">mul(...nums)</a> ⇒ <code>number</code></dt>
-<dd><p>Write a function <code>mul</code> that
-is generalized for any
-amount of arguments</p>
-</dd>
+    <dt>
+        <strike><a href="#mul">mul(*nums)</a> ⇒ <code>number</code></strike>
+    </dt>
+    <dd>
+        <p>Write a function <code>mul</code> that
+            is generalized for any
+            amount of arguments
+        </p>
+    </dd>
 <dt><a href="#min">min(...nums)</a> ⇒ <code>number</code></dt>
 <dd><p>Write a function <code>min</code> that
 is generalized for any
@@ -676,12 +680,12 @@ amount of arguments
 
 | Param   | Type                |
 | ------- | ------------------- |
-| ...nums | <code>number</code> |
+| *nums   | <code>number</code> |
 
 **Example**
 
-```js
-mul(1, 2, 4) // 1 * 2 * 4 = 8
+```rb
+mul(1, 2, 4) # 1 * 2 * 4 = 8
 ```
 
 <a name="min"></a>

@@ -110,11 +110,15 @@ This repository contains an adaptation in ruby of [JS_Fun_Practice](https://gith
             amount of arguments
         </p>
     </dd>
-<dt><a href="#addRecurse">addRecurse(...nums)</a> ⇒ <code>number</code></dt>
-<dd><p>Write a function <code>addRecurse</code> that
-is the generalized <code>add</code> function
-but uses recursion</p>
-</dd>
+    <dt>
+        <strike><a href="#addRecurse">addRecurse(*nums)</a> ⇒ <code>number</code></strike>
+    </dt>
+    <dd>
+        <p>Write a function <code>addRecurse</code> that
+            is the generalized <code>add</code> function
+            but uses recursion
+        </p>
+    </dd>
 <dt><a href="#mulRecurse">mulRecurse(...nums)</a> ⇒ <code>number</code></dt>
 <dd><p>Write a function <code>mulRecurse</code> that
 is the generalized <code>mul</code> function
@@ -734,7 +738,7 @@ max(1, 2, 4) # 4
 
 <a name="addRecurse"></a>
 
-## addRecurse(...nums) ⇒ <code>number</code>
+## addRecurse(*nums) ⇒ <code>number</code>
 
 Write a function `addRecurse` that
 is the generalized `add` function
@@ -742,12 +746,12 @@ but uses recursion
 
 | Param   | Type                |
 | ------- | ------------------- |
-| ...nums | <code>number</code> |
+| *nums   | <code>number</code> |
 
 **Example**
 
-```js
-addRecurse(1, 2, 4) // 1 + 2 + 4 = 7
+```rb
+addRecurse(1, 2, 4) # 1 + 2 + 4 = 7
 ```
 
 <a name="mulRecurse"></a>

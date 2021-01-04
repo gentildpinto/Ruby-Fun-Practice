@@ -74,4 +74,10 @@ RSpec.describe "Functions" do
             expect(functions.addRecurse(1, 2, 4)).to eq(7)
         end
     end
+
+    describe "mulRecurse(*nums)" do
+        it "is the generalized `mul` function but uses recursion" do
+            expect(functions.mulRecurse(1, 2, 4)).to eq(8)
+        end
+    end
 end

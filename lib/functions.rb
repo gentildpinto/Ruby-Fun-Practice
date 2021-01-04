@@ -71,4 +71,11 @@ module Functions
         sum = nums.pop
         return sum + addRecurse(*nums)
     end
+
+    # this function is the generalized `mul` function but uses recursion
+    def self.mulRecurse(*nums)
+        return nums[0] if nums.length == 1
+        product = nums.pop
+        return product * mulRecurse(*nums)
+    end
 end

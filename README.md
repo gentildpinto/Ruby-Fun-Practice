@@ -684,7 +684,7 @@ sub(1, 2, 4) # 1 - 2 - 4 = -5
 
 <a name="mul"></a>
 
-## mul(...nums) ⇒ <code>number</code>
+## mul(*nums) ⇒ <code>number</code>
 
 Write a function `mul` that
 is generalized for any
@@ -702,7 +702,7 @@ mul(1, 2, 4) # 1 * 2 * 4 = 8
 
 <a name="min"></a>
 
-## min(...nums) ⇒ <code>number</code>
+## min(*nums) ⇒ <code>number</code>
 
 Write a function `min` that
 is generalized for any
@@ -720,7 +720,7 @@ min(1, 2, 4) # 1
 
 <a name="max"></a>
 
-## max(...nums) ⇒ <code>number</code>
+## max(*nums) ⇒ <code>number</code>
 
 Write a function `max` that
 is generalized for any

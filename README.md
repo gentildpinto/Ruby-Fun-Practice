@@ -119,11 +119,15 @@ This repository contains an adaptation in ruby of [JS_Fun_Practice](https://gith
             but uses recursion
         </p>
     </dd>
-<dt><a href="#mulRecurse">mulRecurse(...nums)</a> ⇒ <code>number</code></dt>
-<dd><p>Write a function <code>mulRecurse</code> that
-is the generalized <code>mul</code> function
-but uses recursion</p>
-</dd>
+    <dt>
+        <strike><a href="#mulRecurse">mulRecurse(*nums)</a> ⇒ <code>number</code></strike>
+    </dt>
+    <dd>
+        <p>Write a function <code>mulRecurse</code> that
+            is the generalized <code>mul</code> function
+            but uses recursion
+        </p>
+    </dd>
 <dt><a href="#minRecurse">minRecurse(...nums)</a> ⇒ <code>number</code></dt>
 <dd><p>Write a function <code>minRecurse</code> that
 is the generalized <code>min</code> function
@@ -756,7 +760,7 @@ addRecurse(1, 2, 4) # 1 + 2 + 4 = 7
 
 <a name="mulRecurse"></a>
 
-## mulRecurse(...nums) ⇒ <code>number</code>
+## mulRecurse(*nums) ⇒ <code>number</code>
 
 Write a function `mulRecurse` that
 is the generalized `mul` function
@@ -764,12 +768,12 @@ but uses recursion
 
 | Param   | Type                |
 | ------- | ------------------- |
-| ...nums | <code>number</code> |
+| *nums   | <code>number</code> |
 
 **Example**
 
-```js
-mulRecurse(1, 2, 4) // 1 * 2 * 4 = 8
+```rb
+mulRecurse(1, 2, 4) # 1 * 2 * 4 = 8
 ```
 
 <a name="minRecurse"></a>

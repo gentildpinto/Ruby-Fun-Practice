@@ -64,4 +64,11 @@ module Functions
         end
         return max
     end
+
+    # this function is the generalized `add` function but uses recursion
+    def self.addRecurse(*nums)
+        return nums[0] if nums.length == 1
+        sum = nums.pop
+        return sum + addRecurse(*nums)
+    end
 end

@@ -68,4 +68,10 @@ RSpec.describe "Functions" do
             expect(functions.max(1, 2, 4)).to eq(4)
         end
     end
+
+    describe "addRecurse(*nums)" do
+        it "is the generalized `add` function but uses recursion" do
+            expect(functions.addRecurse(1, 2, 4)).to eq(7)
+        end
+    end
 end

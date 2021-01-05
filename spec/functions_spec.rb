@@ -80,4 +80,10 @@ RSpec.describe "Functions" do
             expect(functions.mulRecurse(1, 2, 4)).to eq(8)
         end
     end
+
+    describe "minRecurse(*nums)" do
+        it "is the generalized `min` function but uses recursion" do
+            expect(functions.minRecurse(1, 2, 4)).to eq(1)
+        end
+    end
 end

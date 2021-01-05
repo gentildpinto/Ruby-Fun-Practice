@@ -78,4 +78,15 @@ module Functions
         product = nums.pop
         return product * mulRecurse(*nums)
     end
+
+    # this function is the generalized `min` function but uses recursion
+    def self.minRecurse(*nums)
+        return nums[0] if nums.length == 1
+        if nums[0] < nums[-1]
+            nums.pop
+        else
+            nums.shift
+        end
+        return minRecurse(*nums)
+    end
 end

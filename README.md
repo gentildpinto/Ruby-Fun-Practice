@@ -128,11 +128,15 @@ This repository contains an adaptation in ruby of [JS_Fun_Practice](https://gith
             but uses recursion
         </p>
     </dd>
-<dt><a href="#minRecurse">minRecurse(...nums)</a> ⇒ <code>number</code></dt>
-<dd><p>Write a function <code>minRecurse</code> that
-is the generalized <code>min</code> function
-but uses recursion</p>
-</dd>
+    <dt>
+        <strike><a href="#minRecurse">minRecurse(*nums)</a> ⇒ <code>number</code></strike>
+    </dt>
+    <dd>
+        <p>Write a function <code>minRecurse</code> that
+            is the generalized <code>min</code> function
+            but uses recursion
+        </p>
+    </dd>
 <dt><a href="#maxRecurse">maxRecurse(...nums)</a> ⇒ <code>number</code></dt>
 <dd><p>Write a function <code>maxRecurse</code> that
 is the generalized <code>max</code> function
@@ -778,7 +782,7 @@ mulRecurse(1, 2, 4) # 1 * 2 * 4 = 8
 
 <a name="minRecurse"></a>
 
-## minRecurse(...nums) ⇒ <code>number</code>
+## minRecurse(*nums) ⇒ <code>number</code>
 
 Write a function `minRecurse` that
 is the generalized `min` function
@@ -786,12 +790,12 @@ but uses recursion
 
 | Param   | Type                |
 | ------- | ------------------- |
-| ...nums | <code>number</code> |
+| *nums   | <code>number</code> |
 
 **Example**
 
-```js
-minRecurse(1, 2, 4) // 1
+```rb
+minRecurse(1, 2, 4) # 1
 ```
 
 <a name="maxRecurse"></a>

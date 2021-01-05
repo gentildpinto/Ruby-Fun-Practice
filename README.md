@@ -137,11 +137,15 @@ This repository contains an adaptation in ruby of [JS_Fun_Practice](https://gith
             but uses recursion
         </p>
     </dd>
-<dt><a href="#maxRecurse">maxRecurse(...nums)</a> ⇒ <code>number</code></dt>
-<dd><p>Write a function <code>maxRecurse</code> that
-is the generalized <code>max</code> function
-but uses recursion</p>
-</dd>
+    <dt>
+        <strike><a href="#maxRecurse">maxRecurse(*nums)</a> ⇒ <code>number</code></strike>
+    </dt>
+    <dd>
+        <p>Write a function <code>maxRecurse</code> that
+            is the generalized <code>max</code> function
+            but uses recursion
+        </p>
+    </dd>
 <dt><a href="#not">not(func)</a> ⇒ <code>function</code></dt>
 <dd><p>Write a function <code>not</code> that
 takes a function and returns
@@ -800,7 +804,7 @@ minRecurse(1, 2, 4) # 1
 
 <a name="maxRecurse"></a>
 
-## maxRecurse(...nums) ⇒ <code>number</code>
+## maxRecurse(*nums) ⇒ <code>number</code>
 
 Write a function `maxRecurse` that
 is the generalized `max` function
@@ -808,12 +812,12 @@ but uses recursion
 
 | Param   | Type                |
 | ------- | ------------------- |
-| ...nums | <code>number</code> |
+| *nums   | <code>number</code> |
 
 **Example**
 
-```js
-maxRecurse(1, 2, 4) // 4
+```rb
+maxRecurse(1, 2, 4) # 4
 ```
 
 <a name="not"></a>

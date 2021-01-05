@@ -86,4 +86,10 @@ RSpec.describe "Functions" do
             expect(functions.minRecurse(1, 2, 4)).to eq(1)
         end
     end
+
+    describe "maxRecurse(*nums)" do
+        it "is the generalized `max` function but uses recursion" do
+            expect(functions.maxRecurse(1, 2, 4)).to eq(4)
+        end
+    end
 end

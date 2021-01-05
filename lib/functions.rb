@@ -89,4 +89,15 @@ module Functions
         end
         return minRecurse(*nums)
     end
+
+    # this function is the generalized `max` function but uses recursion
+    def self.maxRecurse(*nums)
+        return nums[0] if nums.length == 1
+        if nums[0] > nums[-1]
+            nums.pop
+        else
+            nums.shift
+        end
+        return maxRecurse(*nums)
+    end
 end

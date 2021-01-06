@@ -100,4 +100,9 @@ module Functions
         end
         return maxRecurse(*nums)
     end
+
+    # this function takes a function and returns the negation of its result
+    def self.not(function)
+        return !function
+    end
 end

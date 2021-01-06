@@ -92,4 +92,11 @@ RSpec.describe "Functions" do
             expect(functions.maxRecurse(1, 2, 4)).to eq(4)
         end
     end
+
+    describe "not(function)" do
+        it "takes a function and returns the negation of its result" do
+            isOdd = -> (value) { value % 2 == 1}
+            expect(functions.not(isOdd.(1))).to eq(false)
+        end
+    end
 end

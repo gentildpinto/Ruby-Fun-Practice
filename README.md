@@ -146,11 +146,15 @@ This repository contains an adaptation in ruby of [JS_Fun_Practice](https://gith
             but uses recursion
         </p>
     </dd>
-<dt><a href="#not">not(func)</a> ⇒ <code>function</code></dt>
-<dd><p>Write a function <code>not</code> that
-takes a function and returns
-the negation of its result</p>
-</dd>
+    <dt>
+        <strike><a href="#not">not(function)</a> ⇒ <code>function</code></strike>
+    </dt>
+    <dd>
+        <p>Write a function <code>not</code> that
+            takes a function and returns
+            the negation of its result
+        </p>
+    </dd>
 <dt><a href="#acc">acc(func, initial)</a> ⇒ <code>function</code></dt>
 <dd><p>Write a function <code>acc</code> that
 takes a function and an
@@ -822,23 +826,21 @@ maxRecurse(1, 2, 4) # 4
 
 <a name="not"></a>
 
-## not(func) ⇒ <code>function</code>
+## not(function) ⇒ <code>function</code>
 
 Write a function `not` that
 takes a function and returns
 the negation of its result
 
-| Param | Type                  |
-| ----- | --------------------- |
-| func  | <code>function</code> |
+| Param     | Type                  |
+| -----     | --------------------- |
+| function  | <code>function</code> |
 
 **Example**
 
-```js
-const isOdd = (x) => x % 2 === 1
-const isEven = not(isOdd)
-isEven(1) // false
-isEven(2) // true
+```rb
+isOdd = -> (x) { x % 2 == 1 }
+not(isOdd.(1)) # false
 ```
 
 <a name="acc"></a>
